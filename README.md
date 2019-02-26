@@ -29,7 +29,7 @@ returns the previous 5 items in the list
  - <b>notas.columns = ["usuarioId", "filmeId", "notas", "momentos"]</b>:<br>
   Change the names of columns.
 
- -<b>notas['notas'].value_counts()</b>:
+ - <b>notas['notas'].value_counts()</b>:
  Returns object containing counts of unique values.
 
 
