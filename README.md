@@ -16,7 +16,7 @@ https://www.alura.com.br/formacao-data-science
 
 Panda's Command:
  
-- <b>head()</b>:
+- <b>head()</b>:<br>
 returns the previous 5 items in the list
  
 - <b>list.shape</b>:<br>
