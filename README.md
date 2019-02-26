@@ -1,15 +1,35 @@
 # Data Science
-Git para acompanhar aulas do curso de Data Science
 
-# Aula 1
+This git was created with the intention of following the course
+https://www.alura.com.br/formacao-data-science
 
- Ferramentas Python
+# Class 1
+Panda's Command:
+ 
+- <b>head()</b>:
+returns the previous 5 items in the list
+ 
+- <b>list.shape</b>:<br>
+ Return a tuple representing the dimensionality of the DataFrame.<br>
+ <b>note:</b>used for list `shape`,  number of itens and columns.
+ 
+ - <b>list['column'].unique()</b>: <br>
+ Return values unique the series 'list'.
+
+ - <b>notas.columns = ["usuarioId", "filmeId", "notas", "momentos"]</b>:<br>
+  Change the names of columns.
+
+ <b>notas['notas'].value_counts()</b>: Returns object containing counts of unique values.
+
+
+
+ #Tools Python
 - NumPy
 - Pandas
-- Seaborn para visualização
+- Seaborn (preview)
 - Matplotlib 
 
-**Obs** :
- codigo feito no https://colab.research.google.com
+**note** :
+ code was made in the https://colab.research.google.com
 
 
