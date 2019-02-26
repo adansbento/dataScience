@@ -3,7 +3,17 @@
 This git was created with the intention of following the course
 https://www.alura.com.br/formacao-data-science
 
+ # Tools Python
+- NumPy
+- Pandas
+- Seaborn (preview)
+- Matplotlib 
+
+**note** :
+ code was made in the https://colab.research.google.com
+
 # Class 1
+
 Panda's Command:
  
 - <b>head()</b>:
@@ -23,13 +33,6 @@ returns the previous 5 items in the list
 
 
 
- #Tools Python
-- NumPy
-- Pandas
-- Seaborn (preview)
-- Matplotlib 
 
-**note** :
- code was made in the https://colab.research.google.com
 
 
