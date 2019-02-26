@@ -26,14 +26,25 @@ returns the previous 5 items in the list
  - <b>list['column'].unique()</b>: <br>
  Return values unique the series 'list'.
 
- - <b>notas.columns = ["usuarioId", "filmeId", "notas", "momentos"]</b>:<br>
+ - <b>notas.columns = ["usuarioId", "filmeId", "nota", "momentos"]</b>:<br>
   Change the names of columns.
 
  - <b>notas['notas'].value_counts()</b>:
  Returns object containing counts of unique values.
 
 
+# Class 2
 
+Panda's Command:
 
+<b>sns.notas.nota.plot(kind="hist")</b>:<br>
+Show to histogram the dataFrame
 
+<b>notas.nota.describe()</b>:<br>
+Show summary with details ex: means,min,max 25%,50%,75% the dataFrame
 
+Seaborn's Command:<br>
+import seaborn as sns
+
+<b>boxplot(notas.nota)</b>:
+<br>Show summary with details ex: means,min,max 25%,50%,75% the dataFrame visually
