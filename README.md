@@ -69,7 +69,7 @@ Show summary details ex: means,min,max 25%,50%,75% on the chart
 
 # Class 3
 
-# Variables can be classified as follows:
+## Variables can be classified as follows:
 
 - Quantitative Variables:
  are the characteristics that can be measured on a quantitative scale, that is, they have numerical values ​​that make sense. They can be continuous or discrete.
