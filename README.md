@@ -43,7 +43,7 @@ Show to histogram the dataFrame
 <b>notas.nota.describe()</b>:<br>
 Show summary with details ex: means,min,max 25%,50%,75% the dataFrame
 
-Seabor<b>boxplot(notas.nota)</b>:
+Seaborn<b>boxplot(notas.nota)</b>:
 <br>Show summary with details ex: means,min,max 25%,50%,75% the dataFr
 Seaborn's Command:<br>
 ame visually
@@ -87,3 +87,32 @@ there is no ordering among categories. Examples: sex, eye color, smoker / non-sm
 
 - Ordinal variables: 
 there is an ordering between categories. Examples: schooling (1st, 2nd, 3rd grades), stage of illness (initial, intermediate, terminal), month of observation (January, February, ..., December).
+
+
+# Class 4
+
+## Seaborn's commad
+
+- Load file tmdb:<br>
+tmdb = pd.read_csv("tmdb_5000_movies.csv")
+<br>
+
+- Print first 5 lines:<br>
+tmdb.head()
+<br>
+
+- Count each original_language:<br>
+tmdb["original_language"].value_counts()<br>
+
+- Reset index hide column "index" and show amount:<br>
+amount_language = tmdb["original_language"].value_counts().to_frame().reset_index()<br>
+amount_language.columns = ["original_linguage","total"]<br>
+amount_language.head()<br>
+
+- Show graphics with barplot:<br>
+sns.barplot(x="original_linguage", y="total", data=amount_language)<br>
+
+- Show graphics with catplot **It is works with version more than 0.9.0:<br>
+!pip install seaborn==0.9.0<br>
+import seaborn as sns<br>
+sns.catplot(x="original_language", kind="count", data = tmdb<br>
