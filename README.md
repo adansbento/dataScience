@@ -93,26 +93,26 @@ there is an ordering between categories. Examples: schooling (1st, 2nd, 3rd grad
 
 ## Seaborn's commad
 
-- Load file tmdb:<br>
+- <b>Load file tmdb:</b><br>
 tmdb = pd.read_csv("tmdb_5000_movies.csv")
 <br>
 
-- Print first 5 lines:<br>
+- <b>Print first 5 lines</b>:<br>
 tmdb.head()
 <br>
 
-- Count each original_language:<br>
+- <b>Count each original_language:</b><br>
 tmdb["original_language"].value_counts()<br>
 
-- Reset index hide column "index" and show amount:<br>
+- <b>Reset index hide column "index" and show amount:</b><br>
 amount_language = tmdb["original_language"].value_counts().to_frame().reset_index()<br>
 amount_language.columns = ["original_linguage","total"]<br>
 amount_language.head()<br>
 
-- Show graphics with barplot:<br>
+- <b>Show graphics with barplot:</b><br>
 sns.barplot(x="original_linguage", y="total", data=amount_language)<br>
 
-- Show graphics with catplot **It is works with version more than 0.9.0:<br>
+- <b>Show graphics with catplot **It is works with version more than 0.9.0:</b><br>
 !pip install seaborn==0.9.0<br>
 import seaborn as sns<br>
 sns.catplot(x="original_language", kind="count", data = tmdb<br>
